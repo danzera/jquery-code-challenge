@@ -1,1 +1,5 @@
-$(document).ready('Mr. Hammond I think we\'re back in business');
+$(document).ready(function() {
+  $('button').on('click', function() {
+    $('.text-area').append('<div class="generator"></div>');
+  });
+});
