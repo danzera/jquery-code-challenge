@@ -1,5 +1,14 @@
-.generator {
-  width: 10px;
-  height: 10px;
+.container {
+  background-color: gray;
+}
+
+.generate {
+  background-color: yellow;
+}
+
+.text-area {
+  background-color: blue;
+}
+.shell {
   background-color: salmon;
 }
