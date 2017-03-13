@@ -12,8 +12,13 @@ $(document).ready(function() {
     var $el = $('.text-area').children().last();
     // append a paragraph to our new <div> displaying the number of button clicks
     $el.append('<p class="clicks">' + clicks + '</p>');
-    $el.append('<button>Swap</button>');
-    $el.append('<button>Delete</button>');
+    $el.append('<button class="swap">Swap</button>');
+    $el.append('<button class="delete">Delete</button>');
     console.log($el);
+  });
+
+  $('.text-area').on('click', '.swap', function() {
+    console.log('here');
+    $(this).parent().addClass('yellow');
   });
 });

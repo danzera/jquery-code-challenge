@@ -1,14 +1,7 @@
-.container {
-  background-color: gray;
-}
-
-.generate {
-  background-color: yellow;
-}
-
-.text-area {
-  background-color: blue;
-}
 .shell {
-  background-color: salmon;
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
 }
