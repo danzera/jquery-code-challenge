@@ -19,7 +19,7 @@ $(document).ready(function() {
   });
 
   $('.text-area').on('click', '.swap', function() {
-    $(this).parent().addClass('yellow');
+    $(this).parent().toggleClass('yellow');
   });
 
   $('.text-area').on('click', '.delete', function() {
