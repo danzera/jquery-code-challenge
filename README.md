@@ -17,3 +17,5 @@ Follow the steps below to complete the code challenge:
 7. Clicking a Delete <button> should remove its parent <div> container (and all of its contents).
 
 No need to do anything beyond the challenge described above. Once you are complete, check your code into a GitHub repo and submit via this application. Then quietly leave the room until the challenge is over.
+
+[Link to example](https://media.giphy.com/media/3ohzdZKPnR7PFXbzsQ/giphy.gif)
